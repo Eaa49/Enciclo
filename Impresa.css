@@ -1,18 +1,48 @@
 @media print {
     body {
-        background-color: white; /* Elimina colores de fondo */
-        color: black; /* texto en negro */
+        background-color: white; /* Quita el fondo de colores */
+        color: black; /* Texto en color negro */
     }
 
     header, footer, nav {
-        display: none; /* Oculta elementos no relevantes en la impresión */
+        display: none; /* Oculta elementos no necesarios */
     }
 
     a::after {
-        content: " (" attr(href) ")"; /* Muestra la URL después de cada enlace */
+        content: " (" attr(href) ")"; /* Muestra URL después de los enlaces */
     }
 
     img {
-        max-width: 100%; /* Ajusta imágenes para que no se corten en la impresión */
+        max-width: 100%; /* Evita el corte de imágenes */
     }
+}
+
+
+iframe {
+    display: none; /* Oculta el video */
+}
+
+iframe::after {
+    content: "Video disponible en: " attr(src); /* Muestra la URL del video */
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: black;
+}
+
+@media print {
+    a[href^="#"] {
+        display: none; /* Oculta los enlaces internos al imprimir */
+    }
+}
+
+
+@page {
+    margin: 1in; /* Ajusta el margen de la página impresa */
+}
+
+
+p, li {
+    widows: 2;
+    orphans: 2;
 }
