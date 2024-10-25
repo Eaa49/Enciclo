@@ -33,6 +33,7 @@ th, td {
 
 .indice-horizontal a {
     background-color: var(--color-principal);
+    color: #ffffff;
 
 }
 
