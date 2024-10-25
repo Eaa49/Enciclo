@@ -27,7 +27,7 @@ header, footer {
 /* Barra de índice horizontal */
 .indice-horizontal a {
     background-color: var(--color-principal);
-    color: var(--text-color);
+    color: black;
 }
 
 .indice-horizontal a:hover {
@@ -58,18 +58,14 @@ h2 {
 /* Estilos para la barra de navegación */
 .navbar, footer .navbar {
     width: 100%;
-    background-color: #2b7ad4;
+    background-color: var(--color-principal);
     padding: 10px 0;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-principal: #64ACFD; 
-        --color-cont: #121212; 
-        --hover-color: #6200EE; 
-        --footer-header-color: #292828; 
-        --text-color: #E0E0E0;
+.navbar ul li a, footer .navbar ul li a {
+    text-decoration: none;
+    color: black;
+
     }
-}
