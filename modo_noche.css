@@ -63,3 +63,13 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-principal: #64ACFD; 
+        --color-cont: #121212; 
+        --hover-color: #6200EE; 
+        --footer-header-color: #292828; 
+        --text-color: #E0E0E0;
+    }
+}
