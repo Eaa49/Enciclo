@@ -1,0 +1,61 @@
+/* Variables CSS para Alto Contraste */
+:root {
+    --color-fondo: black; 
+    --color-texto: yellow; 
+    --color-principal: cyan; 
+    --hover-color: lightgreen; 
+    --color-cont: black; 
+    --footer-header-color: #434f5b; 
+}
+
+/* Estilos generales */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+/* Estilo del contenedor */
+main {
+    border: 1px solid var(--color-texto); 
+}
+
+header, footer {  
+    color: var(--color-texto);
+}
+/* Barra de índice horizontal */
+.indice-horizontal a {
+    color: var(--color-fondo);
+}
+
+/* Estilos para tablas */
+th {
+    color: var(--color-fondo);
+}
+
+/* Estilos para enlaces */
+a:hover {
+    color: var(--color-fondo);
+}
+
+/* Títulos y líneas */
+h2 {
+    color: var(--color-principal);
+}
+
+/* Estilos para la barra de navegación */
+.navbar, footer .navbar {
+    background-color: grey;
+}
+
+.navbar ul li a, footer .navbar ul li a {
+    color: var(--color-texto);
+}
+
+footer .navbar {
+    background-color: #000000; 
+    color: var(--color-texto);
+}
+
+/* Diseño adaptable */
+@media (max-width: 768px) {
+   }

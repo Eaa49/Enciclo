@@ -1,0 +1,53 @@
+/* Estilo de tamaño grande */
+:root {
+    --color-principal: #004d99;
+    --color-cont: #f9f9f9;
+    --hover-color: #437cb5;
+    --footer-header-color: #a2c9f0;
+    --text-color: black;
+    --text-head-foot: rgb(0, 0, 0);
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 20px;
+    font-size: 1.2em; /* Aumentar tamaño de fuente */
+    background-color: var(--color-cont);
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px; /* Aumentar padding */
+    background-color: var(--footer-header-color);
+    color: var(--text-head-foot);
+}
+
+/* Tablas */
+th, td {
+    padding: 15px; /* Aumentar padding en las celdas */
+}
+
+.indice-horizontal a {
+    background-color: var(--color-principal);
+
+}
+
+.navbar ul li a, footer .navbar ul li a {
+    color: white;
+}
+
+.indice-horizontal a:hover {
+    background-color: var(--hover-color);
+}
+
+.navbar, footer .navbar {
+    width: 100%;
+    color: #ffffff;
+    padding: 10px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}

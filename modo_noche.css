@@ -1,0 +1,65 @@
+/* Modo Noche */
+
+/* Variables CSS para cambiar los colores en modo noche */
+:root {
+    --color-principal: #64ACFD; 
+    --color-cont: #121212; 
+    --hover-color: #6200EE; 
+    --footer-header-color: #292828; 
+    --text-color: #E0E0E0; 
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--color-cont);
+    color: var(--text-color);
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    background-color: var(--footer-header-color);
+    color: var(--text-color);
+}
+
+/* Barra de índice horizontal */
+.indice-horizontal a {
+    background-color: var(--color-principal);
+    color: var(--text-color);
+}
+
+.indice-horizontal a:hover {
+    background-color: var(--hover-color);
+}
+
+/* Estilos para tablas */
+th {
+    background-color: var(--color-principal);
+    color: var(--text-color);
+}
+
+/* Enlaces */
+a {
+    color: var(--color-principal);
+}
+
+a:hover {
+    background-color: var(--hover-color);
+    color: white;
+}
+
+/* Títulos */
+h2 {
+    color: var(--color-principal);
+}
+
+/* Estilos para la barra de navegación */
+.navbar, footer .navbar {
+    width: 100%;
+    background-color: #2b7ad4;
+    padding: 10px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}

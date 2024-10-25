@@ -1,0 +1,18 @@
+@media print {
+    body {
+        background-color: white; /* Elimina colores de fondo */
+        color: black; /* texto en negro */
+    }
+
+    header, footer, nav {
+        display: none; /* Oculta elementos no relevantes en la impresión */
+    }
+
+    a::after {
+        content: " (" attr(href) ")"; /* Muestra la URL después de cada enlace */
+    }
+
+    img {
+        max-width: 100%; /* Ajusta imágenes para que no se corten en la impresión */
+    }
+}
