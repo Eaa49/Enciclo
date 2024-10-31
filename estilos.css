@@ -148,13 +148,16 @@ area:focus {
 /* Diseño adaptable */
 @media (max-width: 768px) {
     .indice-horizontal {
-        flex-direction: column; 
-        align-items: center;
+        display: flex; /* Asegúrate de que el contenedor use flexbox */
+        flex-direction: row; /* Mantén la dirección horizontal */
+        overflow-x: auto; /* Permite desplazamiento horizontal */
+        justify-content: center; /* Centra los elementos */
     }
 
     .indice-horizontal a {
         width: auto; 
-        margin-bottom: 10px; 
+        margin-right: 10px; /* Cambia a margin-right para el espaciado horizontal */
+        margin-bottom: 0; /* Elimina el margen inferior */
     }
 
     header, footer {
