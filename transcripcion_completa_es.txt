@@ -1,44 +1,48 @@
-[Inicio del video: logo de la enciclopedia médica y la imagen de un esqueleto humano aparece en pantalla]
+AD: [Inicio del video: logo de la enciclopedia médica y la imagen de un esqueleto humano aparece en pantalla]
+AD: Se muestra el logo de la Enciclopedia Médica y un esqueleto humano en el centro de la pantalla.
+
 Bienvenidos a nuestra Enciclopedia Médica.
 
-
-[Aparece una imagen de la glándula pituitaria]
+AD: [Aparece una imagen de la glándula pituitaria]
+AD: En pantalla aparece una imagen detallada de la glándula pituitaria debajo el texto.
 A continuación, presentaremos brevemente la acromegalia y un poco de su historia.
 
 [Se muestra el título "¿Qué es la Acromegalia?" en pantalla]
+AD: Se presenta el texto “¿Qué es la Acromegalia?” en letras grandes sobre un fondo blanco.
 ¿Qué es la Acromegalia?
-La acromegalia es una enfermedad rara causada por un exceso de hormona del crecimiento, 
-usualmente debido a un tumor en la glándula pituitaria. 
+
+La acromegalia es una enfermedad rara causada por un exceso de hormona del crecimiento,
+usualmente debido a un tumor en la glándula pituitaria.
 Esta condición provoca un crecimiento anormal en huesos y tejidos.
 
-
 [Imagen de una foto antigua de Robert Wadlow]
-Un caso muy famoso de gigantismo relacionado con la acromegalia 
-es el de Robert Wadlow, también conocido como "El Gigante de Alton". 
-Nacido en 1918 en Alton, Illinois, Wadlow llegó a medir 2.72 metros de altura, 
-siendo la persona más alta registrada en la historia. 
-
+AD: Se muestra una fotografía antigua a color de Robert Wadlow, de pie junto a algunas personas.
+Un caso muy famoso de gigantismo relacionado con la acromegalia
+es el de Robert Wadlow, también conocido como "El Gigante de Alton".
+Nacido en 1918 en Alton, Illinois, Wadlow llegó a medir 2.72 metros de altura,
+siendo la persona más alta registrada en la historia.
 
 [Imágenes de Wadlow en su juventud]
+AD: En pantalla aparece una serie de imágenes de Wadlow en su juventud, mostrando su crecimiento extremo.
 Su altura extrema era el resultado de un crecimiento continuo.
 
-
 [Imagen de la estatua Wadlow junto a una persona]
-En cuanto al Impacto Físico y Social.
-A pesar de su fama, la vida de Wadlow fue complicada. 
-Su tamaño requería equipos médicos especializados 
+AD: Se muestra una estatua de Robert Wadlow en tamaño real junto a una persona de altura promedio para comparar.
+En cuanto al impacto físico y social.
+A pesar de su fama, la vida de Wadlow fue complicada.
+Su tamaño requería equipos médicos especializados
 y zapatos hechos a medida.
 
-
 [Imagen de sus zapatos personalizados]
+AD: Se visualizan un par de zapatos de gran tamaño, diseñados específicamente para Wadlow.
 Además, su movilidad era limitada.
-Aun así, se convirtió en una figura pública, 
-patrocinado por una empresa de calzado, 
-lo que le permitió contar su historia y generar 
-conciencia sobre su condición, 
-ayudando en los avances e investigaciones 
+Aun así, se convirtió en una figura pública,
+patrocinado por una empresa de calzado,
+lo que le permitió contar su historia y generar
+conciencia sobre su condición,
+ayudando en los avances e investigaciones
 e impulsando el progreso médico.
 
-
-[Aparece el logo de la enciclopedia medica]
-Gracias por su atención.
+[Aparece el logo de la enciclopedia médica]
+AD: El logo de la Enciclopedia Médica vuelve a aparecer en pantalla, cerrando el video.
+Gracias por su atención
